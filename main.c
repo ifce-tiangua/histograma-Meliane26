@@ -10,7 +10,7 @@ void imprime_histograma(int* vetor[], int categorias) {
             for (int j = 0; j < *vetor[i]; j++) {
                 printf("*");
             }
-            printf("\n");
+            printf("\\n");
         }
     }
 }
