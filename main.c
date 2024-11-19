@@ -11,7 +11,7 @@ void imprime_histograma(int* vetor[], int categorias) {
                 printf("*");
             }
             if(i < categorias - 1)
-            printf("\\n");
+            printf("\n");
         }
     }
 }
